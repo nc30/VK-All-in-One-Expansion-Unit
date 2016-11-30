@@ -55,6 +55,8 @@ $required_packages[] = array(
 /*-------------------------------------------*/
 /*  relatedPosts
 /*-------------------------------------------*/
+/*  SpecificRelatedPosts
+/*-------------------------------------------*/
 /*  auto_eyecatch
 /*-------------------------------------------*/
 /*  disable_ping-back
@@ -343,6 +345,17 @@ $required_packages[] = array(
 	'description' => __( 'Print Related posts lists to post content bottom.', 'vkExUnit' ),
 	'default'     => true,
 	'include'     => 'related_posts/related_posts.php',
+);
+
+/*-------------------------------------------*/
+/*  SpecificRelatedPosts
+/*-------------------------------------------*/
+$required_packages[] = array(
+	'name'        => 'SpecificRelatedPosts',
+	'title'       => __( 'Specific Related posts', 'vkExUnit' ),
+	'description' => __( 'Print Specific term posts lists to content bottom.', 'vkExUnit' ),
+	'default'     => false,
+	'include'     => 'related_posts_sp/related_posts_sp.php',
 );
 
 /*-------------------------------------------*/
