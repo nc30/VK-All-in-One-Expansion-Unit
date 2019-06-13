@@ -314,6 +314,17 @@ function veu_get_packages() {
 	);
 
 	/*
+	  blog card
+	/*-------------------------------------------*/
+	$required_packages[] = array(
+		'name'        => 'blog-card',
+		'title'       => __( 'Blog Card Custom', 'vk-all-in-one-expansion-unit' ),
+		'description' => __( '', 'vk-all-in-one-expansion-unit' ),
+		'default'     => true,
+		'include'     => 'blog-card/blog-card.php',
+	);
+
+	/*
 	  disable_ping-back
 	/*-------------------------------------------*/
 	$required_packages[] = array(
