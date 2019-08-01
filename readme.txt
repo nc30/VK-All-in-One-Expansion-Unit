@@ -2,7 +2,7 @@
 Contributors: vektor-inc,kurudrive,nc30,SaoriMiyazaki,catherine8007,naoki0h
 Donate link:
 Tags: Google Analytics, New posts, Related Posts, sitemap, sns, twitter card, Facebook Page Plugin, OG tags,
-Requires at least: 5.0
+Requires at least: 4.4
 Tested up to: 5.2.2
 Stable tag: 9.1.4
 License: GPLv2 or later
